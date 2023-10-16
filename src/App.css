@@ -17,27 +17,30 @@ body {
 .container {
   min-height: fit-content;
 }
-
-.home {
+/**/
+.navbar-container{
   background-color: var(--white);
+}
+.home {
+  background-color: var(--grey);
 }
 .home-sub-title{
   font-size: 24px;
 }
 /* about page */
 .about {
-  background-color: var(--grey);
+  background-color: var(--white);
   padding: 100px 0px;
 }
 
 /* project page */
 .project {
-  background-color: var(--white);
+  background-color: var(--grey);
   padding: 100px 0;
 }
 /* contact page*/
 .contact {
-  background-color: var(--grey);
+  background-color: var(--white);
   padding: 100px 0;
 }
 /* footer*/

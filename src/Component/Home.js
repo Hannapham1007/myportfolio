@@ -15,9 +15,8 @@ const Home = () => {
             <h1 className="home-title"> Hi 👋 I'm Hanna</h1>
 
             <p className="home-sub-title">
-              I'm a junior software developer. My interests include web
-              development, fullstack development and UX/UI design. Feel free to
-              look through my portfolio.
+              I'm a junior software developer based in Gothenburg, Sweden📍. My interests include web
+              development, fullstack development and UX/UI design.
             </p>
             <div className="home-social-icon" style={{ display: "flex" }}>
               <FaLinkedinIn

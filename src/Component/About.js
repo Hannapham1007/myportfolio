@@ -19,7 +19,7 @@ const About = () => {
             I'm always learning and I enjoy
               working with others to achieve shared goals.</p>
               <p>In my free time I like to workout, cook delicious meals, design and code simple things.</p>
-              <p>I'm open to oppotunities where I can contribute, learn and grow. Have a look at my projects and let create something meaningful together.</p>
+              <p>I'm open to opportunities where I can contribute, learn and grow. Feel free to look through my projects or send me a message.</p>
 
               </div>
           </div>

@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
 
         <div className="d-flex justify-content-center align-items-center">
-          <form className="contact-form mt-4 p-3 rounded-2" style={{backgroundColor:'var(--white)'}} method='POST' action="https://getform.io/f/e490d44a-b88f-4dfc-9df4-38914c39bbbe">
+          <form className="contact-form mt-4 p-3 rounded-2" style={{backgroundColor:'var(--grey)'}} method='POST' action="https://getform.io/f/e490d44a-b88f-4dfc-9df4-38914c39bbbe">
            
               <div className="mb-2">
                 <label htmlFor="name" className="form-label">
