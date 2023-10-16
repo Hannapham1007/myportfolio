@@ -9,7 +9,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
 
   return (
-    <nav>
+    <nav className="navbar-container">
       <div className="nav-con">
         <div className="nav-name">
           <Link
@@ -23,6 +23,7 @@ function Navbar() {
             HANNA PHAM
           </Link>
         </div>
+        
         <div className="menu-icon " onClick={handleClick}>
           {click ? (
             <FaTimes style={{ fontSize: "25px" }} />
@@ -30,6 +31,7 @@ function Navbar() {
             <FaBars style={{ fontSize: "25px" }} />
           )}
         </div>
+       
 
         <div className={click ? "nav-mobile" : "nav-desktop"}>
           <ul>
@@ -48,7 +50,9 @@ function Navbar() {
                 CONTACT
               </Link>
             </li>
+            
           </ul>
+          
         </div>
       </div>
     </nav>

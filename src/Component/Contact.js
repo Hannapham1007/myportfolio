@@ -3,8 +3,8 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section name="contact">
-      <div className="container ">
+    <section className="contact">
+      <div className="container " >
         <div className="text-center">
           <h2>Contact</h2>
           <p>
@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
 
         <div className="d-flex justify-content-center align-items-center">
-          <form className="contact-form mt-4 p-3 rounded-2" style={{ backgroundColor: "var(--grey)" }} method='POST' action="https://getform.io/f/e490d44a-b88f-4dfc-9df4-38914c39bbbe">
+          <form className="contact-form mt-4 p-3 rounded-2" style={{backgroundColor:'var(--white)'}} method='POST' action="https://getform.io/f/e490d44a-b88f-4dfc-9df4-38914c39bbbe">
            
               <div className="mb-2">
                 <label htmlFor="name" className="form-label">
@@ -62,13 +62,8 @@ const Contact = () => {
               <div className="text-center">
                 <button
                   type="submit"
-                  className="btn primary align-center"
-                  style={{
-                    backgroundColor: "var(--primary)",
-                    color: "var(--white)",
-                    borderRadius: "10px",
-                    padding: "8px 22px",
-                  }}
+                  className="btn btn-outline"
+                 style={{padding:'8px 24px'}}
                 >
                   Submit
                 </button>
