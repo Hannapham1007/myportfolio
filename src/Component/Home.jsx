@@ -1,11 +1,12 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import Navbar from "./Navbar";
+import Nav from "./Nav";
 
 const Home = () => {
   return (
     <section className="home">
-      <Navbar />
+      <Nav/>
+
       <div
         className="container d-flex align-items-center justify-content-center"
         style={{ height: "100vh" }}

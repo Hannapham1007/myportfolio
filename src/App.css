@@ -45,7 +45,7 @@ body {
 }
 /* footer*/
 .footer {
-  background-color: var(--primary);
+  background-color: var(--dark);
   padding: 50px 0;
 }
 
@@ -74,13 +74,14 @@ p {
 
 /*BUTTON*/
 .btn-outline {
-  border-color: var(--primary);
-  color: var(--primary);
+  border-color: var(--dark);
+  border: 2px solid var(--dark);
+  color: var(--dark);
   max-width: fit-content;
   margin: 0 12px;
 }
 .btn-outline:hover {
-  background-color: var(--primary);
+  background-color: var(--dark);
   color: white;
 }
 

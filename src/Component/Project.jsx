@@ -17,7 +17,7 @@ const Project = () => {
             projectPic={{ src: "./images/openweatherProject.png"  }}
             projectTitle={"Weather Application"}
             projectContent={
-              "My classmates and I collaborated on developing a weather application as a part of our Technigo JavaScript and React uppskill course. I was responsible for fetching and presenting weather data using API from Openweathermap. We used JavaScript, HTML and CSS programming languages."
+              "My classmates and I collaborated on developing a weather application as a part of our Technigo JavaScript and React course. I was responsible for fetching and presenting weather data using API from OpenWeatherMap. We used JavaScript, HTML and CSS programming languages."
             
             }
            
@@ -32,7 +32,7 @@ const Project = () => {
           
 
           <span style={{ height: "50px" }}></span>
-          <ProjectItem
+         {/*<ProjectItem
             projectPic={{ src: "./images/duytanproject.png" }}
             projectTitle={"DUY TAN"}
             projectContent={
@@ -43,8 +43,20 @@ const Project = () => {
             buttonTextDemo={"Live Demo"}
             onClickDemo={()=> window.open("http://duytanab.se")}
           />
+          */} 
+          <ProjectItem
+           projectPic={{ src: "./images/musicReleaseProject.png"  }}
+           projectTitle={"Music Releases in React"}
+           projectContent={
+             "My classmates and I developed a music release website that allows users to browse the latest music releases. This website was built using an API from Spotify, and we used JavaScript, React, HTML, and CSS programming languages."
+           }
+          
+           buttonTextViewCode={"View Code"}
+           onClickViewCode={() => window.open("https://github.com/Hannapham1007/technigo-project-music-releases-vite")}
+           buttonTextDemo={"Live Demo"}
+           onClickDemo={()=> window.open("https://musicrelease.netlify.app/")}
+          />
 
-         
         </div>
       </div>
     </section>

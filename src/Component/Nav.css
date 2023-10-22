@@ -1,0 +1,22 @@
+.navbar ul li:hover{
+    text-decoration: underline 2px;
+    cursor: pointer;
+    text-decoration-color: var(--dark);
+    text-underline-offset: 4px;
+}
+.navbar-brand{
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 24px;
+}
+.navbar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media (max-width:850px) {
+    .navbar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}

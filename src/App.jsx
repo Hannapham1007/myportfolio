@@ -8,7 +8,6 @@ import Project from "./Component/Project";
 function App() {
   return (
     <div className="app">
-      
       <Home/>
       <About/>
       <Project/>
