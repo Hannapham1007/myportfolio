@@ -8,8 +8,8 @@ const Home = () => {
       <Nav/>
 
       <div
-        className="container d-flex align-items-center justify-content-center"
-        style={{ height: "100vh" }}
+        className="container home-section d-flex align-items-center justify-content-center"
+       
       >
         <div className="row gy-4 align-left">
           <div className="col-md-8 col-12">
