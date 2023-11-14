@@ -15,7 +15,7 @@ const Project = () => {
         </div>
         <div className="row mt-4 text-left">
           <ProjectItem
-            projectPic={{ src: data[0].picture }}
+            projectPic={{ src: data[0].image }}
             projectTitle={data[0].title}
             projectContent={data[0].description}
             buttonTextViewCode={"View Code"}
@@ -27,7 +27,7 @@ const Project = () => {
           <span style={{ height: "50px" }}></span>
 
           <ProjectItem
-            projectPic={{ src: data[1].picture }}
+            projectPic={{ src: data[1].image }}
             projectTitle={data[1].title}
             projectContent={data[1].description}
             buttonTextViewCode={"View Code"}
@@ -42,7 +42,7 @@ const Project = () => {
 
           <span style={{ height: "50px" }}></span>
           <ProjectItem
-            projectPic={{ src: data[2].picture }}
+            projectPic={{ src: data[2].image }}
             projectTitle={data[2].title}
             projectContent={data[2].description}
             buttonTextViewCode={"View Code"}
@@ -53,7 +53,7 @@ const Project = () => {
 
           <span style={{ height: "50px" }}></span>
           <ProjectItem
-            projectPic={{ src: data[3].picture }}
+            projectPic={{ src: data[3].image }}
             projectTitle={data[3].title}
             projectContent={data[3].description}
             buttonTextViewCode={"View Code"}

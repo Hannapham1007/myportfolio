@@ -8,7 +8,7 @@ function FlutterProject() {
     <section id="projectFlutter">
       <div className="row">
         <div className="d-flex col-md-7 col-12 justify-content-center align-items-center">
-          <img className="w-100" style={{borderRadius:'20px', marginBottom:'16px', maxHeight:'400px', objectFit:'cover'}} src={data[5].picture} alt=""></img>
+          <img className="w-100" style={{borderRadius:'20px', marginBottom:'16px', maxHeight:'400px', objectFit:'cover'}} src={data[5].image} alt=""></img>
         </div>
         <div className="col-md-1"></div>
         <div className="col-md-4 col-12 d-flex flex-column justify-content-center align-items-center">
