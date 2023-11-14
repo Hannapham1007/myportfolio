@@ -1,0 +1,57 @@
+{ "projects": 
+[
+    {
+        "id": 1,
+        "picture": "./images/movieProject.png ",
+        "title": "Movie Mate with React",
+        "description":"A responsive movie site using React Router and an API from IMDB. It allows users to view a list of latest movie releases and select a movie to read more about.",
+        "gitlink": "https://github.com/Hannapham1007/project-movies",
+        "demolink": "https://moviemate-project.netlify.app/"
+    }, 
+    {
+        "id": 2,
+        "picture": "./images/happyThoughtProject.png",
+        "title": "Happy Thought API",
+        "description": "Twitter-style, Happy Thought is a site where users can post thoughts, see other users posts and send likes. What makes you happy? Join and share with us!",
+        "gitlink": "https://github.com/Hannapham1007/project-happy-thoughts-vite ",
+        "demolink": "https://happythought.netlify.app/"
+    }, 
+    {
+        "id": 3,
+        "picture": "./images/openweatherProject.png",
+        "title": "Weather Application",
+        "description": "My classmates and I collaborated on developing a weather application as a part of our Technigo JavaScript and React course. I was responsible for fetching and presenting weather data using API from OpenWeatherMap. We used JavaScript, HTML and CSS programming languages.",
+        "gitlink": "https://github.com/Hannapham1007/technigo-weather-app",
+        "demolink": "https://openweather-project.netlify.app/"
+    }, 
+    {
+        "id": 4,
+        "picture": "./images/musicReleaseProject.png",
+        "title": "Music Releases in React",
+        "description":   "A music release site that allows users to browse the latest music releases. This is a pair-programming project that my classmates and I worked on, using an API from Spotify, JavaScript, React, HTML, and CSS.",
+        "gitlink": "https://github.com/Hannapham1007/technigo-project-music-releases-vite",
+        "demolink": "https://musicrelease.netlify.app/"
+    },
+    {
+        "id": 5,
+        "picture": "./images/duytanproject.png",
+        "title": "Duy Tan",
+        "description": "Duy Tan is a Vietnamese restaurant, located at Kvilletorget Gothenburg. I created their website using Firebase as hosting and React as frontend.",
+        "gitlink": "https://github.com/Hannapham1007/duytan-web",
+        "demolink": "http://duytanab.se"
+    },
+    {
+        "id": 6,
+        "picture": "./images/flutterProject.png",
+        "title": "Maritime English",
+        "description": "This is my Bachelor's Thesis. We developed a language learning application in Maritime English by using Dart as programming language with the Flutter framework.",
+        "gitlink": "https://github.com/Hannapham1007/fluttermaritime",
+        "demolink": " "
+    }
+
+
+
+    
+]
+
+}

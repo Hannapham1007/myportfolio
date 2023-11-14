@@ -1,89 +1,66 @@
 import React from "react";
 import FlutterProject from "./FlutterProject";
 import ProjectItem from "./ProjectItem";
+import projectData from "../projectData.json";
 
 const Project = () => {
+  const data = projectData.projects;
+  console.log(data);
   return (
     <section className="project">
       <div className="container height-auto">
-        <div className="text-center" >
-          <h2 >Project</h2>
+        <div className="text-center">
+          <h2>Project</h2>
           <p>Here are a few projects I've worked on 🧩</p>
         </div>
         <div className="row mt-4 text-left">
-        <ProjectItem
-            projectPic={{ src: "./images/movieProject.png"  }}
-            projectTitle={"Movie Mate with React"}
-            projectContent={
-              "A responsive movie site using React Router and an API from IMDB. It allows users to view a list of latest movie releases and select a movie to read more about."
-            }
-           
+          <ProjectItem
+            projectPic={{ src: data[0].picture }}
+            projectTitle={data[0].title}
+            projectContent={data[0].description}
             buttonTextViewCode={"View Code"}
-            onClickViewCode={() => window.open("https://github.com/Hannapham1007/project-movies")}
+            onClickViewCode={() => window.open(data[0].gitlink)}
             buttonTextDemo={"Live Demo"}
-            onClickDemo={()=> window.open("https://moviemate-project.netlify.app/")}
+            onClickDemo={() => window.open(data[0].demolink)}
           />
-          
+
           <span style={{ height: "50px" }}></span>
 
           <ProjectItem
-            projectPic={{ src: "./images/happyThoughtProject.png"  }}
-            projectTitle={"Happy Thought API"}
-            projectContent={
-              "Twitter-style, Happy Thought is a site where users can post thoughts, see other users posts and send likes. What makes you happy? Join and share with us!"}
+            projectPic={{ src: data[1].picture }}
+            projectTitle={data[1].title}
+            projectContent={data[1].description}
             buttonTextViewCode={"View Code"}
-            onClickViewCode={() => window.open("https://github.com/Hannapham1007/project-happy-thoughts-vite")}
+            onClickViewCode={() => window.open(data[1].gitlink)}
             buttonTextDemo={"Live Demo"}
-            onClickDemo={()=> window.open("https://happythought.netlify.app/")}
+            onClickDemo={() => window.open(data[1].demolink)}
           />
-          
+
           <span style={{ height: "50px" }}></span>
 
-
-          <FlutterProject/>
+          <FlutterProject />
 
           <span style={{ height: "50px" }}></span>
           <ProjectItem
-            projectPic={{ src: "./images/openweatherProject.png"  }}
-            projectTitle={"Weather Application"}
-            projectContent={
-              "My classmates and I collaborated on developing a weather application as a part of our Technigo JavaScript and React course. I was responsible for fetching and presenting weather data using API from OpenWeatherMap. We used JavaScript, HTML and CSS programming languages."
-            }
-           
+            projectPic={{ src: data[2].picture }}
+            projectTitle={data[2].title}
+            projectContent={data[2].description}
             buttonTextViewCode={"View Code"}
-            onClickViewCode={() => window.open("https://github.com/Hannapham1007/technigo-weather-app")}
+            onClickViewCode={() => window.open(data[2].gitlink)}
             buttonTextDemo={"Live Demo"}
-            onClickDemo={()=> window.open("https://openweather-project.netlify.app/")}
-           
+            onClickDemo={() => window.open(data[2].demolink)}
           />
-          
 
           <span style={{ height: "50px" }}></span>
-         <ProjectItem
-            projectPic={{ src: "./images/duytanproject.png" }}
-            projectTitle={"DUY TAN"}
-            projectContent={
-              "Duy Tan is a Vietnamese restaurant, located at Kvilletorget Gothenburg. I created their website using Firebase as hosting and React as frontend."
-            }
-            buttonTextViewCode={"View Code"}
-            onClickViewCode={() => window.open("https://github.com/Hannapham1007/duytan-web")}
-            buttonTextDemo={"Live Demo"}
-            onClickDemo={()=> window.open("http://duytanab.se")}
-          />
-          
           <ProjectItem
-           projectPic={{ src: "./images/musicReleaseProject.png"  }}
-           projectTitle={"Music Releases in React"}
-           projectContent={
-             "A music release site that allows users to browse the latest music releases. This is a pair-programming project that my classmates and I worked on, using an API from Spotify, JavaScript, React, HTML, and CSS."
-           }
-          
-           buttonTextViewCode={"View Code"}
-           onClickViewCode={() => window.open("https://github.com/Hannapham1007/technigo-project-music-releases-vite")}
-           buttonTextDemo={"Live Demo"}
-           onClickDemo={()=> window.open("https://musicrelease.netlify.app/")}
+            projectPic={{ src: data[3].picture }}
+            projectTitle={data[3].title}
+            projectContent={data[3].description}
+            buttonTextViewCode={"View Code"}
+            onClickViewCode={() => window.open(data[3].gitlink)}
+            buttonTextDemo={"Live Demo"}
+            onClickDemo={() => window.open(data[3].demolink)}
           />
-
         </div>
       </div>
     </section>
@@ -91,7 +68,3 @@ const Project = () => {
 };
 
 export default Project;
-
-
-
-
