@@ -10,6 +10,35 @@ const Project = () => {
           <p>Here are a few projects I've worked on 🧩</p>
         </div>
         <div className="row mt-4 text-left">
+        <ProjectItem
+            projectPic={{ src: "./images/movieProject.png"  }}
+            projectTitle={"Movie Mate with React"}
+            projectContent={
+              "A responsive movie site using React Router and an API from IMDB. It allows users to view a list of latest movie releases and select a movie to read more about."
+            }
+           
+            buttonTextViewCode={"View Code"}
+            onClickViewCode={() => window.open("https://github.com/Hannapham1007/project-movies")}
+            buttonTextDemo={"Live Demo"}
+            onClickDemo={()=> window.open("https://moviemate-project.netlify.app/")}
+          />
+          
+          <span style={{ height: "50px" }}></span>
+
+          <ProjectItem
+            projectPic={{ src: "./images/happyThoughtProject.png"  }}
+            projectTitle={"Happy Thought API"}
+            projectContent={
+              "Twitter-style, Happy Thought is a site where users can post thoughts, see other users posts and send likes. What makes you happy? Join and share with us!"}
+            buttonTextViewCode={"View Code"}
+            onClickViewCode={() => window.open("https://github.com/Hannapham1007/project-happy-thoughts-vite")}
+            buttonTextDemo={"Live Demo"}
+            onClickDemo={()=> window.open("https://happythought.netlify.app/")}
+          />
+          
+          <span style={{ height: "50px" }}></span>
+
+
           <FlutterProject/>
 
           <span style={{ height: "50px" }}></span>
@@ -18,15 +47,12 @@ const Project = () => {
             projectTitle={"Weather Application"}
             projectContent={
               "My classmates and I collaborated on developing a weather application as a part of our Technigo JavaScript and React course. I was responsible for fetching and presenting weather data using API from OpenWeatherMap. We used JavaScript, HTML and CSS programming languages."
-            
             }
            
             buttonTextViewCode={"View Code"}
             onClickViewCode={() => window.open("https://github.com/Hannapham1007/technigo-weather-app")}
             buttonTextDemo={"Live Demo"}
             onClickDemo={()=> window.open("https://openweather-project.netlify.app/")}
-            
-
            
           />
           
@@ -48,7 +74,7 @@ const Project = () => {
            projectPic={{ src: "./images/musicReleaseProject.png"  }}
            projectTitle={"Music Releases in React"}
            projectContent={
-             "My classmates and I developed a music release website that allows users to browse the latest music releases. This website was built using an API from Spotify, and we used JavaScript, React, HTML, and CSS programming languages."
+             "A music release site that allows users to browse the latest music releases. This is a pair-programming project that my classmates and I worked on, using an API from Spotify, JavaScript, React, HTML, and CSS."
            }
           
            buttonTextViewCode={"View Code"}

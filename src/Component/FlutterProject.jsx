@@ -12,8 +12,7 @@ function FlutterProject() {
           <h3>Maritime English</h3>
           <p className="flutter-project-text">
             This is my Bachelor's Thesis. We developed a language learning
-            application in Maritime English. I was responsible for designing and
-            implementing the user interface for the application. We used Dart as
+            application in Maritime English by using Dart as
             programming language with the Flutter framework.
           </p>
           <div className="d-flex">
