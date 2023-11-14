@@ -1,5 +1,6 @@
 import React from "react";
 import FlutterProject from "./FlutterProject";
+import ProjectItem from "./ProjectItem";
 
 const Project = () => {
   return (
@@ -58,7 +59,7 @@ const Project = () => {
           
 
           <span style={{ height: "50px" }}></span>
-         {/*<ProjectItem
+         <ProjectItem
             projectPic={{ src: "./images/duytanproject.png" }}
             projectTitle={"DUY TAN"}
             projectContent={
@@ -69,7 +70,7 @@ const Project = () => {
             buttonTextDemo={"Live Demo"}
             onClickDemo={()=> window.open("http://duytanab.se")}
           />
-          */} 
+          
           <ProjectItem
            projectPic={{ src: "./images/musicReleaseProject.png"  }}
            projectTitle={"Music Releases in React"}
@@ -91,50 +92,6 @@ const Project = () => {
 
 export default Project;
 
-function ProjectItem({ projectPic, projectTitle, projectContent, onClickViewCode, buttonTextViewCode, onClickDemo, buttonTextDemo}) {
-  return (
-    <>
-      <div className="d-flex col-md-7 col-12 justify-content-center align-items-center">
-        <img className="w-100" src={projectPic.src} alt="" style={{borderRadius:'20px', marginBottom:'16px', maxHeight:'400px', objectFit:'cover'}} ></img>
-      </div>
-      <div className="col-md-1"></div>
-      <div className="col-md-4 col-12 d-flex flex-column justify-content-center align-items-center ">
-        <h3>{projectTitle}</h3>
-        <div className="project-text">
-        <p> {projectContent}</p>
 
-        </div>
-        <div className="d-flex justify-content-around">
-        <ButtonViewCode onClick={onClickViewCode} text={buttonTextViewCode}/>
-        <ButtonDemo onClick={onClickDemo} text={buttonTextDemo}/>
 
-        </div>
-        
-        
-      </div>
-    </>
-  );
-}
 
-function ButtonViewCode({ onClick, text}) {
-  return (
-    <button
-      onClick={onClick}
-      type="button"
-      className="btn btn-outline"
-    >
-      {text}
-    </button>
-  );
-}
-function ButtonDemo({ onClick, text}) {
-  return (
-    <button
-      onClick={onClick}
-      type="button"
-      className="btn btn-outline"
-    >
-      {text}
-    </button>
-  );
-}
