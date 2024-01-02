@@ -27,8 +27,8 @@ export default function Nav() {
       >
         <ul className="navbar-nav text-center">
           <li className="nav-item">
-            <Link className="nav-link" to="about">
-              About
+            <Link className="nav-link" to="tech">
+              Tech
             </Link>
           </li>
           <li className="nav-item">
