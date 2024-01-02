@@ -14,7 +14,7 @@ export default function ProjectItem({
 }) {
   return (
     <>
-      <div className="d-flex col-md-6 col-12 justify-content-center align-items-center">
+      <div className="d-flex col-md-12 col-lg-6 col-12 justify-content-center align-items-center">
         <img
           className="w-100"
           src={projectPic.src}
@@ -22,13 +22,12 @@ export default function ProjectItem({
           style={{
             borderRadius: "10px",
             marginBottom: "16px",
-            maxHeight: "400px",
             objectFit: "cover",
           }}
         ></img>
       </div>
-      <div className="col-md-1"></div>
-      <div className="col-md-5 col-12 d-flex flex-column justify-content-center align-items-center ">
+      <div className="col-lg-1"></div>
+      <div className="  col-md-12 col-lg-5 col-12 d-flex flex-column justify-content-center align-items-center ">
         <h3>{projectTitle}</h3>
         <div className="project-text">
           <p> {projectContent}</p>

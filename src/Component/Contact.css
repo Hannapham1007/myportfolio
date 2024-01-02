@@ -1,7 +1,7 @@
 .contact-form{
-    width: 55%;
+    width: 65%;
 }
-@media (max-width:850px) {
+@media (max-width:991px) {
     .contact-form{
        width: 100vw;
         margin-left: 0;

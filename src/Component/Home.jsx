@@ -9,7 +9,7 @@ const Home = () => {
 
       <div className="container home-section d-flex align-items-center justify-content-center">
         <div className="row gy-4 align-left">
-          <div className="col-md-8 col-12">
+          <div className="col-md-12 col-lg-8 col-12">
             <h1 className="home-title"> Hi 👋 I'm Hanna</h1>
 
             <p className="home-sub-title">
@@ -35,7 +35,7 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="col-md-4 col-12 text-center justify-content-center align-items-center">
+          <div className="col-md-12 col-lg-4 col-12 text-center justify-content-center align-items-center">
             <img
               src={"./images/profilbild.jpg"}
               style={{ width: "250px", height: "250px" }}
