@@ -2,56 +2,88 @@
 [
     {
         "id": 1,
-        "image": "./images/movieProject.png ",
-        "title": "Movie Mate with React",
-        "description":"A responsive movie site using React Router and an API from IMDB. It allows users to view a list of latest movie releases and select a movie to read more about.",
-        "gitlink": "https://github.com/Hannapham1007/project-movies",
-        "demolink": "https://moviemate-project.netlify.app/"
-    }, 
+        "image": "./images/expensoProject.png",
+        "title": "Expense Tracker",
+        "description": "An expense tracker built using React and Redux, where users can log their expenses and manage their financial transactions.",
+        "tech": ["React", "Redux", "HTML", "CSS", "Styled Components"],
+        "gitlink": "https://github.com/Hannapham1007/react-vite-boilerplate",
+        "demolink": "https://expensofocus.netlify.app/"
+    },
     {
         "id": 2,
-        "image": "./images/happyThoughtProject.png",
-        "title": "Happy Thought API",
-        "description": "Twitter-style, Happy Thought is a site where users can post thoughts, see other users posts and send likes. What makes you happy? Join and share with us!",
-        "gitlink": "https://github.com/Hannapham1007/project-happy-thoughts-vite ",
-        "demolink": "https://happythought.netlify.app/"
-    }, 
-    {
-        "id": 3,
         "image": "./images/openweatherProject.png",
         "title": "Weather Application",
-        "description": "My classmates and I collaborated on developing a weather application as a part of our Technigo JavaScript and React course. I was responsible for fetching and presenting weather data using API from OpenWeatherMap. We used JavaScript, HTML and CSS programming languages.",
+        "description": "A weather application built using HTML, CSS, JavaScript and Open Weather Map API. Users can check the weather in different locations and the styling changes according to the weather.",
+        "tech":["HTML", "CSS", "JavaScript", "API"],
         "gitlink": "https://github.com/Hannapham1007/technigo-weather-app",
         "demolink": "https://openweather-project.netlify.app/"
     }, 
     {
+        "id": 3,
+        "image": "./images/movieRelease.png ",
+        "title": "Movie site with React",
+        "description":"A responsive movie site using React Router and an API from IMDB. It allows users to view a list of latest movie releases and select a movie to read more about.",
+        "tech":["React", "React Router", "HTML","CSS","API"],
+        "gitlink": "https://github.com/Hannapham1007/project-movies",
+        "demolink": "https://moviemate-project.netlify.app/"
+    }, 
+    {
         "id": 4,
-        "image": "./images/musicReleaseProject.png",
+        "image": "./images/todoProject.png",
+        "title": "Todo App with Redux",
+        "description": "Todo app enables users to add, delete and mark tasks as completed. Built in React and Redux toolkit to handle global state.",
+        "tech":["React", "Redux", "HTML","CSS", "Styled Components"],
+        "gitlink": "https://github.com/Hannapham1007/project-todos-redux",
+        "demolink": "https://todaytaskss.netlify.app/ "
+    },
+
+    {
+        "id": 5,
+        "image": "./images/quizProject.png",
+        "title": "Cities Quiz",
+        "description": "A multiple-choice quiz built using React and Redux, where users can test their knowledge of capital cities.",
+        "tech":["React", "Redux", "HTML","CSS"],
+        "gitlink": "https://github.com/Hannapham1007/project-redux-quiz",
+        "demolink": "https://capitalquizzes.netlify.app/"
+    },
+    {
+        "id": 6,
+        "image": "./images/happyThoughtProject.png",
+        "title": "Happy Thought API",
+        "description": "Twitter-style, Happy Thought is a site where users can post thoughts, see other users posts and send likes. What makes you happy? Join and share with us!",
+        "tech":["React", "HTML","CSS","API"],
+        "gitlink": "https://github.com/Hannapham1007/project-happy-thoughts-vite ",
+        "demolink": "https://happythought.netlify.app/"
+    }, 
+   
+    {
+        "id": 7,
+        "image": "./images/musicRelease.png",
         "title": "Music Releases in React",
-        "description":   "A music release site that allows users to browse the latest music releases. This is a pair-programming project that my classmates and I worked on, using an API from Spotify, JavaScript, React, HTML, and CSS.",
+        "description": "A music release site that allows users to browse the latest music releases. This is a pair-programming project that my classmates and I worked on, using an API from Spotify, JavaScript, React, HTML, and CSS.",
+        "tech":["React", "HTML","CSS","API"],
         "gitlink": "https://github.com/Hannapham1007/technigo-project-music-releases-vite",
         "demolink": "https://musicrelease.netlify.app/"
     },
     {
-        "id": 5,
-        "image": "./images/duytanproject.png",
+        "id": 8,
+        "image": "./images/duytan.png",
         "title": "Duy Tan",
         "description": "Duy Tan is a Vietnamese restaurant, located at Kvilletorget Gothenburg. I created their website using Firebase as hosting and React as frontend.",
+        "tech":["React", "React Router", "HTML", "CSS"],
         "gitlink": "https://github.com/Hannapham1007/duytan-web",
         "demolink": "http://duytanab.se"
     },
     {
-        "id": 6,
+        "id": 9,
         "image": "./images/flutterProject.png",
         "title": "Maritime English",
         "description": "This is my Bachelor's Thesis. We developed a language learning application in Maritime English by using Dart as programming language with the Flutter framework.",
+        "tech":["Dart", "Flutter", "Figma"],
         "gitlink": "https://github.com/Hannapham1007/fluttermaritime",
         "demolink": " "
     }
-
-
-
-    
+  
 ]
 
 }

@@ -5,19 +5,19 @@ import Nav from "./Nav";
 const Home = () => {
   return (
     <section className="home">
-      <Nav/>
+      <Nav />
 
-      <div
-        className="container home-section d-flex align-items-center justify-content-center"
-       
-      >
+      <div className="container home-section d-flex align-items-center justify-content-center">
         <div className="row gy-4 align-left">
           <div className="col-md-8 col-12">
             <h1 className="home-title"> Hi 👋 I'm Hanna</h1>
 
             <p className="home-sub-title">
-              I'm a junior software developer based in Gothenburg, Sweden📍. My interests include web
-              development, fullstack development and UX/UI design.
+              I'm a junior software developer based in Gothenburg, Sweden📍. My
+              interests include web development, fullstack development and UX/UI
+              design. I’m always eager to learn about new technologies and enjoy
+              working with others to achieve shared goals. Feel free to look
+              through my projects or send me a message.
             </p>
             <div className="home-social-icon" style={{ display: "flex" }}>
               <FaLinkedinIn
