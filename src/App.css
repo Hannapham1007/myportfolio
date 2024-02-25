@@ -91,6 +91,7 @@ p {
 .btn-tech {
   border:none;
   background:white;
+  color: var(--dark);
   border-radius: 4px;
   margin-right: 6px;
   padding: 4px 12px;
