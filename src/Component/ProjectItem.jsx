@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./Button";
-import TechButton from "./TechButton";
+import { FaGlobe, FaGithubAlt} from "react-icons/fa";
+import './styles/ProjectItem.css';
 
 export default function ProjectItem({
   projectPic,
@@ -13,36 +13,33 @@ export default function ProjectItem({
   buttonTextDemo,
 }) {
   return (
-    <>
-      <div className="d-flex col-md-12 col-lg-6 col-12 justify-content-center align-items-center">
-        <img
-          className="w-100"
-          src={projectPic.src}
-          alt=""
-          style={{
-            borderRadius: "10px",
-            marginBottom: "16px",
-            objectFit: "cover",
-          }}
-        ></img>
-      </div>
-      <div className="col-lg-1"></div>
-      <div className="  col-md-12 col-lg-5 col-12 d-flex flex-column justify-content-center align-items-center ">
-        <h3>{projectTitle}</h3>
-        <div className="project-text">
-          <p> {projectContent}</p>
+    <div className="py-4 px-4 project-item">
+      <div className="row">
+        <div className="d-flex col-lg-6 col-md-12 col-12 justify-content-center mb-2">
+          <img
+            className="w-75 rounded-2"
+            src={projectPic.src}
+            alt="project"
+          ></img>
         </div>
-        <div style={{marginBottom:'20px'}}>
-          {techIsUsed.map((item, index) =>(
-            <TechButton key={index} text={item}></TechButton>
-          ))}
-          
-        </div>
-        <div className="d-flex justify-content-around">
-          <Button onClick={onClickViewCode} text={buttonTextViewCode} />
-          <Button onClick={onClickDemo} text={buttonTextDemo} />
+        <div className="col-lg-6 col-md-12 col-12">
+          <div className="d-flex flex-column justify-content-center align-items-center">
+            <h3>{projectTitle}</h3>
+            <div className="project-text">
+              <p>{projectContent}</p>
+            </div>
+            <div className="mb-2">
+              {techIsUsed.map((item, index) => (
+                <div className="btn mx-1 mb-2" style={{ background: "var(--grey)" }} key={index}>{item}</div>
+              ))}
+            </div>
+            <div className="d-flex justify-content-around">
+              <button className="btn btn-outline d-flex align-items-center" onClick={onClickViewCode}> <FaGithubAlt style={{marginRight:'4px'}} />{buttonTextViewCode}</button>
+              <button className="btn btn-outline d-flex align-items-center" onClick={onClickDemo}><FaGlobe style={{marginRight:'4px'}}/>{buttonTextDemo}</button>
+            </div>
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

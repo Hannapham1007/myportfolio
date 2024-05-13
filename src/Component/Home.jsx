@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
 import Nav from "./Nav";
 
 const Home = () => {
@@ -9,29 +9,30 @@ const Home = () => {
 
       <div className="container home-section d-flex align-items-center justify-content-center">
         <div className="row gy-4 align-left">
+            <h1 className="text-lg-start text-md-center text-center">Full-stack Developer</h1>
           <div className="col-md-12 col-lg-8 col-12">
-            <h1 className="home-title"> Hi 👋 I'm Hanna</h1>
-
             <p className="home-sub-title">
-              I'm a junior software developer based in Gothenburg, Sweden📍. My
-              interests include web development, fullstack development and UX/UI
-              design. I’m always eager to learn about new technologies and enjoy
-              working with others to achieve shared goals. Feel free to look
-              through my projects or send me a message.
+              Hi 👋 I'm Hanna, a full-stack developer based in Gothenburg,
+              Sweden📍. I’m always eager to learn about new technologies and
+              enjoy working with others to achieve shared goals. Feel free to
+              look through my projects or send me a message.
             </p>
-            <div className="home-social-icon" style={{ display: "flex" }}>
+            <div className="d-flex home-social-icon">
               <FaLinkedinIn
-                style={{ fontSize: "24px", marginRight: "10px" }}
-                onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/hanna-pham-99979419a/"
-                  )
+                className="mx-2"
+                style={{ fontSize: "24px", cursor:"pointer" }}
+                onClick={() => window.open("https://www.linkedin.com/in/hanna-pham-99979419a/")
                 }
               />
 
               <FaGithub
-                style={{ fontSize: "24px" }}
+                className="mx-2"
+                style={{ fontSize: "24px", cursor:"pointer" }}
                 onClick={() => window.open("https://github.com/Hannapham1007")}
+              />
+
+              <FaEnvelope className="mx-2" style={{fontSize:"24px", cursor:"pointer"}}
+              onClick={() => window.open("mailto:hannapham996@gmail.com")}
               />
             </div>
           </div>

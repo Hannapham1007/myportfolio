@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import FlutterProject from "./FlutterProject";
 import projectData from "../projectData.json";
 
 const Project = () => {
@@ -13,9 +12,9 @@ const Project = () => {
           <h2>Project</h2>
           <p>Here are a few projects I've worked on 🧩</p>
         </div>
-        <div className="row mt-4 text-left">
-          {data.slice(0, -1).map((project, index) => (
-            <React.Fragment key={index}>
+        <div className="row text-left">
+          {data.map((project, index) => (
+            <div key={index} className="mb-4">
               <ProjectItem
                 projectPic={{ src: project.image }}
                 projectTitle={project.title}
@@ -26,10 +25,9 @@ const Project = () => {
                 buttonTextDemo={"Live Demo"}
                 onClickDemo={() => window.open(project.demolink)}
               />
-              {index < data.length - 1 && <span style={{ height: "50px" }}></span>}
-            </React.Fragment>
+            </div>
+            
           ))}
-          <FlutterProject />
         </div>
       </div>
     </section>

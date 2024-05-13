@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import "./Nav.css";
+import "./styles/Nav.css";
 
 export default function Nav() {
   return (
@@ -10,7 +10,7 @@ export default function Nav() {
       </h3>
 
       <button
-        className="navbar-toggler"
+        className="navbar-toggler border-0"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
