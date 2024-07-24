@@ -1,9 +1,24 @@
 {
   "projects": [
     {
+    "id": 0,
+    "image": "./images/indeed.png",
+    "title": "Job platform",
+    "description": "A fullstack project with Java Spring Boot, PostgreSQL, React and Bootstrap. The platform allows job seekers to search for opportunities efficiently and provides recruiters with an intuitive system for posting and managing job listings.",
+    "tech": [
+      "Java Spring Boot",
+      "React",
+      "Bootstrap",
+      "PostgreSQL",
+      "REST API",
+      "Authentication"
+    ],
+    "gitlink": "https://github.com/Hannapham1007/indeed-clone",
+    "demolink": "https://indeed-clone-site.netlify.app/"},
+    {
       "id": 1,
       "image": "./images/expense.png",
-      "title": "Expense Tracker Board",
+      "title": "Expense tracker board",
       "description": "A fullstack project with React, Bootstrap, Java Spring Boot and PostgreSQL. Expense tracker board enables user to create an account and keep track of their transactions in different categories.",
       "tech": [
         "Java Spring Boot",
@@ -20,7 +35,7 @@
     {
       "id": 2,
       "image": "./images/todoProject.png",
-      "title": "Today's Tasks with Redux",
+      "title": "Today's tasks with Redux",
       "description": "A frontend site built with React and Redux toolkit to handle global state. The site enables users to manage their daily tasks by allowing them to add, delete and mark tasks as completed.",
       "tech": ["React", "JavaScript", "Redux", "Styled Components"],
       "gitlink": "https://github.com/Hannapham1007/project-todos-redux",
@@ -29,7 +44,7 @@
     {
       "id": 3,
       "image": "./images/happyThoughtProject.png",
-      "title": "Happy Thought API",
+      "title": "Happy thought API",
       "description": "Twitter-style, Happy Thought is a site where users can post thoughts, see other users posts and send likes. What makes you happy? Join and share with us!",
       "tech": ["React", "JavaScript", "API"],
       "gitlink": "https://github.com/Hannapham1007/project-happy-thoughts-vite ",
@@ -39,7 +54,7 @@
     {
       "id": 4,
       "image": "./images/openweatherProject.png",
-      "title": "Weather Application",
+      "title": "Weather application",
       "description": "A weather application built using HTML, CSS, JavaScript and Open Weather Map API. Users can check the weather in different locations and the styling changes according to the weather.",
       "tech": ["JavaScript", "API"],
       "gitlink": "https://github.com/Hannapham1007/technigo-weather-app",
@@ -59,7 +74,7 @@
     {
       "id": 6,
       "image": "./images/quizProject.png",
-      "title": "Cities Quiz",
+      "title": "Cities quiz",
       "description": "A multiple-choice quiz built using React and Redux, where users can test their knowledge of capital cities.",
       "tech": ["React", "JavaScript", "Redux"],
       "gitlink": "https://github.com/Hannapham1007/project-redux-quiz",
@@ -69,7 +84,7 @@
     {
       "id": 7,
       "image": "./images/musicRelease.png",
-      "title": "Music Releases in React",
+      "title": "Music releases in React",
       "description": "A music release site that allows users to browse the latest music releases. This is a pair-programming project that my classmates and I worked on, using an API from Spotify, JavaScript, React, HTML, and CSS.",
       "tech": ["React", "JavaScript", "API"],
       "gitlink": "https://github.com/Hannapham1007/technigo-project-music-releases-vite",
